@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); /* URL зображення моря */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.wheel {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ff6f61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 2s ease-out; /* Зміна тільки на обертання */
+}
+
+.question {
+    font-size: 18px;
+    margin-top: 20px;
+    border: 2px solid rgba(0, 0, 0, 0); /* Прозора рамка */
+    padding: 10px;
+    width: 300px; /* Фіксована ширина для всіх питань */
+    height: 100px; /* Фіксована висота для всіх питань */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Напівпрозорий білий фон для питання */
+    border-radius: 10px;
+    color: black; /* Колір тексту питання */
+}
+
+.player {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
